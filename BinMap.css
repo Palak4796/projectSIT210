@@ -1,0 +1,20 @@
+.leaflet-container {
+    height: 100vh; /* Full height */
+    width: 100%;   /* Full width */
+  }
+  
+  .leaflet-popup {
+    background-color: white; /* Popup background */
+    border-radius: 5px;      /* Rounded corners */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  }
+  
+  .leaflet-marker-icon {
+    background-color: #007bff; /* Marker background */
+    border-radius: 50%;       /* Circular marker */
+    color: white;             /* Marker text color */
+  }
+  .leaflet-marker-icon {
+    z-index: 1000; /* Ensures the marker icon is above other elements */
+  }
+  

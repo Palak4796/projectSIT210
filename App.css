@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.bin-level {
+  width: 300px;
+  height: 50px;
+  background-color: #e0e0e0;
+  margin: 20px auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.level {
+  height: 100%;
+  background-color: #76c7c0;
+  transition: width 0.5s;
+}
